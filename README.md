@@ -1,21 +1,23 @@
-# Basic CSS example
+# Lab: React III - Next.js
+[Repo](https://github.com/Mohammadnim123/daily_xkcd)
+[PR1](https://github.com/Mohammadnim123/daily_xkcd/pull/1)
 
-Next.js has built-in support for [CSS Modules](https://nextjs.org/docs/basic-features/built-in-css-support#adding-component-level-css) allowing you to write scoped CSS by automatically creating a unique class name. CSS Module files can be imported anywhere in your application and you don't have to worry about collisions.
+**Overview**
 
-## Deploy your own
+Build a multi page web app using Next.js to consume an external API.
 
-Deploy the example using [Vercel](https://vercel.com):
+The app will display most recent XKCD comic and have links to previous 10 comics.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vercel/next.js/tree/canary/examples/basic-css)
+**Feature Tasks and Requirements**
 
-## How to use
+Refer to example site
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+Web app should have 2 static routes
 
-```bash
-npx create-next-app --example basic-css basic-css-app
-# or
-yarn create next-app --example basic-css basic-css-app
-```
+Home page at “/”
 
-Deploy it to the cloud with [Vercel](https://vercel.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+About page at “/about”
+
+Web app should have dynamic routes
+
+Dynamic route should display a single comic
